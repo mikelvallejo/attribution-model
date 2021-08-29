@@ -3,7 +3,7 @@
 Attribution is a key part of the Growth strategy, as it helps us to measure the impact of each channel on our strategy. 
 There are many ways to measure attribution. Traditionally, channel attribution has been tackled by a handful of simple but powerful approaches such as First Touch, Last Touch, and Linear.
 
-![Customer journey](https://github.com/mikelvallejo/attribution-model/blob/main/markov-chains.png)
+![Customer journey](https://github.com/mikelvallejo/attribution-model/blob/main/images/customer-journey.jpeg)
 
 ## Standard attribution models:
 
@@ -17,7 +17,7 @@ There are many ways to measure attribution. Traditionally, channel attribution h
 
 Markov chains are named after the Russian mathematician Andrey Markov, and describe a sequence of possible events in which the probability of each event depends only on the state attained in the previous event
 
-![Markov chain](https://github.com/mikelvallejo/attribution-model/blob/main/markov-chains.png)
+![Markov chain](https://github.com/mikelvallejo/attribution-model/blob/main/images/markov-chains.png)
 
 In the case of channel attribution, it helps us to figure out how user journeys work, and how they are influenced by each channel in order to travel from one state to another, or not.
 
