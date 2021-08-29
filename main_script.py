@@ -45,4 +45,5 @@ def get_common_conversion_paths():
     #Create a new column with the path as string to fetch distinct paths
     df_paths['string'] = df_paths['path'].apply(lambda x: ' -> '.join(x))
     #Group by path and count the occurrences, only conversion events
-    df_paths[df_paths.conversion == 1].groupby('string')['conversion'].count().sort_values(ascending=False).head(10)
+    return df_paths[df_paths.conversion == 1].groupby('string')['conversion'].count().sort_values(ascending=False).head(10)
+
