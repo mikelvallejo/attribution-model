@@ -15,7 +15,7 @@ There are many ways to measure attribution. Traditionally, channel attribution h
 
 Markov chains are named after the Russian mathematician Andrey Markov, and describe a sequence of possible events in which the probability of each event depends only on the state attained in the previous event
 
-![Markov chain](https://github.com/mikelvallejo/attribution-model/markov-chains.png)
+![Markov chain](https://github.com/mikelvallejo/attribution-model/blob/main/markov-chains.png)
 
 In the case of channel attribution, it helps us to figure out how user journeys work, and how they are influenced by each channel in order to travel from one state to another, or not.
 
